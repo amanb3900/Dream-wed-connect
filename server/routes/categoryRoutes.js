@@ -1,7 +1,7 @@
 import express from "express";
-import { isAdmin, requireSignIn } from "./../middlewares/authMiddleware.js";
+import { isAdmin, requireSignIn } from "../middlewares/authMiddleware.js";
 import { createCategoryController,updateCategoryController,categoryControlller,
-    singleCategoryController,deleteCategoryCOntroller} from "./../controller/categoryController.js";
+    singleCategoryController,deleteCategoryCOntroller} from "../controller/categoryController.js";
 
 const router = express.Router();
 
